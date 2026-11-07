@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DinoPedia | Enciclopédia dos Dinossauros</title>
+    <meta name="description" content="Explore o mundo dos dinossauros na DinoPedia.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>DinoPedia</h1>
+        <nav>
+            <a href="#inicio">INÍCIO</a>
+            <a href="#dinossauros">DINOSSAUROS</a>
+            <a href="#sobre">SOBRE</a>
+            <a href="#curiosidades">CURIOSIDADES
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Explore o mundo pré-histórico</h2>
+            <p>Descubra os gigantes que dominaram a Terra.</p>
+        </section>
+
+        <section id="catalogo">
+    <h2>Dinossauros em destaque</h2>
+
+    <input
+        type="text"
+        id="pesquisa"
+        placeholder="Pesquise um dinossauro..."
+        autocomplete="off">
+        <label for="filtro-alimentacao">Alimentação:</label>
+
+<select id="filtro-alimentacao">
+    <option value="todos">Todos</option>
+    <option value="carnivoro">Carnívoros</option>
+    <option value="herbivoro">Herbívoros</option>
+</select>
+<label for="filtro-periodo">Período geológico:</label>
+
+<select id="filtro-periodo">
+    <option value="todos">Todos os períodos</option>
+    <option value="triassico">Triássico</option>
+    <option value="jurassico">Jurássico</option>
+    <option value="cretaceo">Cretáceo</option>
+</select>
+</section>
+
+    <section id="dinossauros">
+        <p id="mensagem-vazia">
+    Nenhum dinossauro encontrado. Tente outra pesquisa!
+</p>
+    <article data-alimentacao="herbivoro" data-periodo="jurassico">
+    <img
+        src="images/Aardonyx_5f522676.jpg"
+        alt="Ilustração de um Aardonyx"
+    >
+
+    <h3>Aardonyx</h3>
+
+    <p>O Aardonyx foi um dinossauro herbívoro da África do Sul que viveu no Jurássico e representou a transição dos dinossauros herbívoros pesados de duas pernas para os grandes gigantes de quatro pernas.</p>
+
+    <div class="ficha-tecnica">
+        <p><strong>Período:</strong> Jurássico Inferior</p>
+        <p><strong>Alimentação:</strong> Herbivoro</p>
+        <p><strong>Comprimento:</strong> 6-7 metros</p>
+    </div>
+</article>
+    <article data-alimentacao="carnivoro" data-periodo="cretaceo">
+    <img
+        src="images/9f0c099c-4780-4457-b75a-4ad7b4466a67.png"
+        alt="Ilustração de um Abelisaurus"
+    >
+
+    <h3>Abelisaurus</h3>
+
+    <p>O Abelissauro foi um dinossauro carnívoro de duas pernas que viveu na América do Sul no Cretáceo e atuava como o principal predador do seu ecossistema, caçando grandes herbívoros pescoçudos.</p>
+
+    <div class="ficha-tecnica">
+        <p><strong>Período:</strong>Cretáceo Superior</p>
+        <p><strong>Alimentação:</strong> Carnívoro</p>
+        <p><strong>Comprimento:</strong> 7-8 metros</p>
+    </div>
+</article>
+    <article data-alimentacao="herbivoro" data-periodo="jurassico">
+    <img
+        src="images/Design sem nome.png"
+        alt="Ilustração de um Abrictosaurus"
+    >
+
+    <h3>Abrictosaurus</h3>
+
+    <p>O Abrictosaurus foi um pequeno dinossauro bípede da África do Sul e Lesoto que viveu no Jurássico Inferior e se destacava por suas grandes presas caninas e possível dimorfismo sexual.</p>
+
+    <div class="ficha-tecnica">
+        <p><strong>Período:</strong>Jurássico Inferior</p>
+        <p><strong>Alimentação:</strong> Herbívoro</p>
+        <p><strong>Comprimento:</strong> 1,2 metros</p>
+    </div>
+</article>
+    <article data-alimentacao="herbivoro" data-periodo="jurassico">
+    <img
+        src="images/abrosauro.png"
+        alt="Ilustração de um Abrosaurus"
+    >
+
+    <h3>Abrosaurus</h3>
+
+    <p>O Abrosaurus foi um dinossauro herbívoro de quatro pernas da China que viveu no Jurássico e se destacava pelo seu crânio quadrado com um alto arco ósseo nas narinas, sendo considerado pequeno para um saurópode.</p>
+
+    <div class="ficha-tecnica">
+        <p><strong>Período:</strong>Jurássico</p>
+        <p><strong>Alimentação:</strong> Herbívoro</p>
+        <p><strong>Comprimento:</strong>~9 metros</p>
+    </div>
+</article>  
+           <article data-alimentacao="carnivoro" data-periodo="cretaceo">
+    <img
+        src="images/85ae08cf-a83d-42f4-a135-48cbdce6896c.png"
+        alt="Ilustração de um Acrocanthosaurus"
+    >
+
+    <h3>Acrocanthosaurus</h3>
+
+    <p>Um grande dinossauro predador do Cretáceo Inferior.</p>
+
+    <div class="ficha-tecnica">
+        <p><strong>Período:</strong> Cretáceo Inferior</p>
+        <p><strong>Alimentação:</strong> Carnívoro</p>
+        <p><strong>Comprimento:</strong> 11–12 metros</p>
+    </div>
+</article>
+
+            <article data-alimentacao="carnivoro" data-periodo="cretaceo">
+                <img
+        src="images/Spinosaurus_durbed.jpg"
+        alt="Ilustração de um Spinosaurus">
+                <h3>Spinosaurus</h3>
+                <p>Um dinossauro conhecido por sua impressionante vela dorsal.</p>
+            </article>
+
+            <article data-alimentacao="carnivoro" data-periodo="cretaceo">
+                <img
+        src="images/Ankylosaurus_magniventris_reconstruction.png"
+        alt="Ilustração de um Ankylosaurus">
+                <h3>Ankylosaurus</h3>
+                <p>Um dinossauro herbívoro protegido por uma armadura óssea.</p>
+            </article>
+
+            <article data-alimentacao="carnivoro" data-periodo="cretaceo">
+                <img
+        src="images/283c57ba-f20f-4468-ad47-78eb2ea9d655.png"
+        alt="Ilustração de um Velociraptor">
+                <h3>Velociraptor</h3>
+                <p>Um dnossauro pequeno, mas quando está com o bando, é letal.</p>
+            </article>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre a DinoPedia</h2>
+            <p>Uma enciclopédia para explorar a diversidade
+            dos dinossauros.</p>
+        </section>
+        <section id="curiosidades">
+            <h2>CURIOSIDADES</h2>
+            <p>Informações adicionais sobre os Dinossauros!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 DinoPedia</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
